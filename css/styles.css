@@ -1,0 +1,22 @@
+/* Change the primary color to a custom shade of blue */
+:root {
+    --bs-primary: #0d7c3d; /* Replace with your color */
+    --bs-secondary: #ff6347; /* A secondary color */
+}
+
+/* Custom button color */
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+    background-color: #003399;
+    border-color: #003399;
+}
+
+/* Custom background color for a section */
+.bg-custom {
+    background-color: #0044cc;
+    color: white;
+}
